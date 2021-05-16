@@ -206,8 +206,21 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: -5px 0;
+  margin: -30px 0;
   max-height: 50px;
+}
+@media (max-width:320px)  { 
+    
+  #header .logo img {
+     width: 100%;
+  } 
+}
+@media (max-width:480px)  { 
+  
+  #header .logo img {
+    width: 100%;
+ } 
+
 }
 
 .main-pages {
